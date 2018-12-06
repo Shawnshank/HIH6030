@@ -1,0 +1,10 @@
+[package]
+authors = ["Joakim Lundberg"]
+readme = "README.md"
+name = "HIH6030"
+version = "0.1.0"
+description = "A platform agnostic driver to interface with the I2C versions of the Honeywell HIH6000-series temperature and humidity sensors"
+
+[dependencies.embedded-hal]
+version = "0.2.2"
+
